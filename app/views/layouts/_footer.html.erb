@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= link_to t(".text.rails_tutorial"), Settings.rails_tutorial %>
+    <%= link_to t("app.michael_hartl"), Settings.michael_hartl %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("static_pages.about.title"),  about_path %></li>
+      <li><%= link_to t("static_pages.contact.tilte"),  contact_path %></li>
+      <li><%= link_to t("app.news"), Settings.rails_news %></li>
+    </ul>
+  </nav>
+</footer>

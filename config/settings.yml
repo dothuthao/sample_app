@@ -1,0 +1,19 @@
+enabled_locales: ["en", "vi"]
+learn_enough: "https://www.learnenough.com/"
+rails: "https://rubyonrails.org/"
+rails_book: "https://www.railstutorial.org/book"
+rails_contact: "https://www.railstutorial.org/contact"
+rails_help: "https://www.railstutorial.org/help"
+rails_tutorial: "https://www.railstutorial.org/"
+rails_screen_casts: "https://screencasts.railstutorial.org/"
+michael_hartl: "https://www.michaelhartl.com/"
+rails_new: "https://news.railstutorial.org/"
+validates:
+  length:
+    maximum:
+      email: 255
+      password: 10
+      name: 50
+    minimum:
+      password: 6
+
