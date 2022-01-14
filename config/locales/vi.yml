@@ -1,6 +1,11 @@
 vi:
   app:
     title: "Hướng dẫn Ruby on Rails Sample App"
+    log_in: "Đăng nhập"
+    sign_up: "Đăng ký"
+    michael_hartl: "Michael Hartl"
+    news: "Tin Tức"
+    new_users: "Đây sẽ là trang đăng ký cho người dùng mới."
   static_pages:
     index:
       home: "Trang chủ"
@@ -13,6 +18,7 @@ vi:
       title: "Trang chủ"
       content: "Đây là trang chủ cho ứng dụng mẫu của %{link}."
       text: "Hướng dẫn Ruby on Rails"
+      rails_logo: "biểu tượng Rails"
     help:
       title: "Trợ giúp"
       content: "Nhận trợ giúp với Hướng dẫn Ruby on Rails tại
@@ -35,7 +41,7 @@ vi:
         book: "Quyển sách"
         learnenough: "Learn Enough"
         rails: "Ruby on Rails"
-        rails_tutorial: "<em>Hướng dẫn Ruby on Rails</em>"
+        rails_tutorial: "Hướng dẫn Ruby on Rails"
         screen_casts: "Screencast"
       show: 
         home: "Trang chủ"
