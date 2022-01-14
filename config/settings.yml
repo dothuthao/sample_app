@@ -8,3 +8,12 @@ rails_tutorial: "https://www.railstutorial.org/"
 rails_screen_casts: "https://screencasts.railstutorial.org/"
 michael_hartl: "https://www.michaelhartl.com/"
 rails_new: "https://news.railstutorial.org/"
+validates:
+  lenght:
+    maximum:
+      email: 255
+      password: 10
+      name: 50
+    minimum:
+      password: 6
+
