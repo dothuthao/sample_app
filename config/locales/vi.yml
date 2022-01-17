@@ -4,16 +4,29 @@ vi:
     new:
       name: "Tên"
       email: "Email"
-      password: "Mật khẩu "
+      password: "Mật khẩu"
       password_confirmation: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản của tôi"
   error:
     error_valid: "Hiện đang có %{error}"
     error: "Lỗi"
+  sessions:
+    new:
+      email: "Email"
+      password: "Mật khẩu"
+      sign_up_now: "Đăng ký ngay!"
+  header:
+    users: "Người dùng"
+    profile:  "Hồ sơ"
+    settings: "Cài đặt" 
+    account: "Tài khoản"
+  controllers:
+    invalid_user: "Email/password không hợp lệ"
   app:
     title: "Hướng dẫn Ruby on Rails Sample App"
     log_in: "Đăng nhập"
     sign_up: "Đăng ký"
+    log_out: "Đăng xuất"
     michael_hartl: "Michael Hartl"
     news: "Tin Tức"
     new_users: "Đây sẽ là trang đăng ký cho người dùng mới."

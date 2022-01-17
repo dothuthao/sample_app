@@ -10,10 +10,23 @@ en:
   error:
     error_valid: "The form contains %{error}"
     error: "error"
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      sign_up_now: "Sign up now!"
+  header:
+    users: "Users"
+    profile: "Profile"
+    settings: "Settings"
+    account: "Account"
+  controllers:
+    invalid_user: "invalid_email_password_combination"
   app:
     title: "Ruby on Rails Tutorial Sample App"
     log_in: "Log in"
     sign_up: "Sign up"
+    log_out: "Log out"
     michael_hartl: "Michael Hartl"
     news: "News"
     new_users: "This will be a signup page for new users."

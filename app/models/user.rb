@@ -13,4 +13,12 @@ class User < ApplicationRecord
                          minimum: Settings.validates.length.minimum.password,
                          maximum: Settings.validates.length.maximum.password
                        }
+  def self.digest string
+    cost = if ActiveModel::SecurePassword.min_cost
+             BCrypt::Engine::MIN_COST
+           else
+             BCrypt::Engine.cost
+           end
+    BCrypt::Password.create string, cost: cost
+  end
 end
