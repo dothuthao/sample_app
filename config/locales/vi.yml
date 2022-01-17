@@ -1,0 +1,60 @@
+vi:
+  welcome: "Chào mừng đến với Sample App"
+  users:
+    new:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu "
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản của tôi"
+  error:
+    error_valid: "Hiện đang có %{error}"
+    error: "Lỗi"
+  app:
+    title: "Hướng dẫn Ruby on Rails Sample App"
+    log_in: "Đăng nhập"
+    sign_up: "Đăng ký"
+    michael_hartl: "Michael Hartl"
+    news: "Tin Tức"
+    new_users: "Đây sẽ là trang đăng ký cho người dùng mới."
+  static_pages:
+    index:
+      home: "Trang chủ"
+      static pages: "Trang tĩnh "
+      show: "Hiển thị"
+      edit: "Chỉnh sửa"
+      destroy: "Xóa"
+      new_static_page: "Thêm trang tĩnh"
+    home:
+      title: "Trang chủ"
+      content: "Đây là trang chủ cho ứng dụng mẫu của %{link}."
+      text: "Hướng dẫn Ruby on Rails"
+      rails_logo: "biểu tượng Rails"
+    help:
+      title: "Trợ giúp"
+      content: "Nhận trợ giúp với Hướng dẫn Ruby on Rails tại
+        %{link_page}. Để nhận trợ giúp với ứng dụng mẫu này, xem tại
+        %{link_book}."
+      text_page: "Trang Hướng dẫn trợ giúp Rails"
+      text_book: "sách <em>Hướng dẫn Ruby on Rails</em>"
+    contact:
+      title: "Liên hệ"
+      content: "Liên hệ với Hướng dẫn Ruby on Rails về
+        ứng dụng mẫu tại %{link}."
+      text: "trang liên hệ"
+    about:
+      title: "Về nội dung"
+      content: "%{link_rails_tutorial}, là một phần trong nhóm %{link_learnenough}
+        các bài giảng hướng dẫn, là một %{link_book} và  để
+        dạy phát triển web với %{link_rails}.
+        Đây là ứng dụng mẫu cho hướng dẫn này."
+      text:
+        book: "Quyển sách"
+        learnenough: "Learn Enough"
+        rails: "Ruby on Rails"
+        rails_tutorial: "Hướng dẫn Ruby on Rails"
+        screen_casts: "Screencast"
+      show: 
+        home: "Trang chủ"
+      new:
+        new_static_page: "Thêm trang tĩnh"
