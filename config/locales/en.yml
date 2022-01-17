@@ -1,4 +1,15 @@
 en:
+  welcome: "Welcome to the Sample App"
+  users:
+    new:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Password_confirmation"
+      submit: "Create my account"
+  error:
+    error_valid: "The form contains %{error}"
+    error: "error"
   app:
     title: "Ruby on Rails Tutorial Sample App"
     log_in: "Log in"

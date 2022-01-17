@@ -1,4 +1,15 @@
 vi:
+  welcome: "Chào mừng đến với Sample App"
+  users:
+    new:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu "
+      password_confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản của tôi"
+  error:
+    error_valid: "Hiện đang có %{error}"
+    error: "Lỗi"
   app:
     title: "Hướng dẫn Ruby on Rails Sample App"
     log_in: "Đăng nhập"

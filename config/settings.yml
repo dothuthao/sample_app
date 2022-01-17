@@ -9,7 +9,7 @@ rails_screen_casts: "https://screencasts.railstutorial.org/"
 michael_hartl: "https://www.michaelhartl.com/"
 rails_new: "https://news.railstutorial.org/"
 validates:
-  lenght:
+  length:
     maximum:
       email: 255
       password: 10
