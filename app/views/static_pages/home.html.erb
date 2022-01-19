@@ -1,0 +1,6 @@
+<% provide :title, t("static_pages.home.title") %>
+<h1><%= t "static_pages.home.title" %></h1>
+<p>
+  <%= sanitize t("static_pages.home.content", link: link_to(t(".text"),
+  Settings.rails_tutorial)) %>
+</p>
